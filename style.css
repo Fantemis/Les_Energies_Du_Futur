@@ -1,0 +1,254 @@
+body
+{
+	font-family: Arial;
+	background: url("test_flou.jpg") fixed no-repeat center;
+	background-color: #4E8208;
+	margin: 0px;
+	max-height: 100%;
+	max-width:100%;
+}
+
+/*---------------------------Contenu principale---------------------------*/
+#page 
+{
+	max-width: 1024px;
+	margin:0 auto;
+}
+/*---------------------------Style du texte---------------------------*/
+
+.content
+{
+	font-size: 16px;
+	color: black;
+	text-align:justify;
+	box-shadow: 6px 6px 12px grey;
+	background-color: #F2F3F3;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding: 25px;
+}
+/*---------------------------Paramètres de la banière principale du site---------------------------*/
+#banner 
+{
+
+	max-height: 100%;
+	text-align: center;
+	
+	background-color: #004365;
+	padding-top: 4px;
+}
+
+
+/*---------------------------[MENU] Paramètres des onglets du menu---------------------------*/
+#onglets
+{
+	background-color: #046380;
+	min-width: 985px;
+	text-align: center;
+	border-bottom: solid #96CA2D 5px;
+}
+
+#onglets ul 
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#onglets li
+{
+	display: inline-block;
+	margin: 0px;
+
+}
+
+
+/*---------------------------[MENU] Paramètres des liens des onglets---------------------------*/
+#onglets a
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 8px 60px;
+	padding-top: 11px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+/*---------------------------[MENU] Action lors du survol de la souris---------------------------*/
+#onglets a:hover
+{
+	transition: all 0.2s;
+	text-decoration: none;
+	color: white;
+	background-color: #004365;
+}
+/*---------------------------[MENU] Action lors du clique de la souris---------------------------*/
+#onglets a:active
+{
+	transition: 0.2s;
+	background-color: #96CA2D;
+	color: black;
+}
+.home
+{
+	font-size: 24px;
+	padding: 3px 30px!important;
+	padding-bottom:6px!important;
+}
+/*---------------------------[MENU] Onglets pour chaque page---------------------------*/
+.onglet1:hover, .onglet2:hover, .onglet3:hover, .onglet4:hover
+{
+		background-color: #96CA2D !important;
+}
+
+.onglet1, .onglet2, .onglet3, .onglet4
+{
+		background-color: #96CA2D;
+		color: black !important;
+}
+
+/*---------------------------[FOOTER]Bas de page---------------------------*/
+footer
+{
+	background-color:#046380;
+	color: white;
+	text-align: center;
+	border-top: solid #96CA2D 5px;
+	margin-top: 105px;
+	padding-bottom: 10px;
+	height: 85px;
+	min-width: 730px;
+}
+footer a
+{
+
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+.logo_iut
+{
+	margin-top: 2px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+}
+
+.a_propos:hover
+{
+	text-decoration: underline;
+}
+
+/*---------------------------[ANCRE] Bouton remonter la page---------------------------*/
+#ancre 
+{
+	position: absolute;
+	background-color: #96CA2D;
+	border-radius: 5px;
+	box-shadow: 6px 6px 10px grey;
+	text-align:center;
+	color: grey;
+	font-size: 50px;
+	text-decoration: none;
+	width: 50px;
+	height: 40px;
+	padding: 10px;
+	margin: auto;
+	right: 40%;
+	left: 40%;
+}
+#ancre:hover
+{
+	transition: 0.2s;
+	padding: 13px;
+}
+
+/*---------------------------[TITRE] Style titres---------------------------*/
+#style, #style2, #style3, #style4, #style5, #style6
+{ 
+	font-size:24px;
+	border-bottom: solid #96CA2D 5px;
+	border-radius: 5px;
+}
+#style 
+{
+	font-size: 30px;
+	width: 400px;
+}
+#style2
+{
+	width: 500px;
+}
+#style3
+{
+
+	width: 700px;
+}
+#style4
+{	
+	width: 175px;
+}
+#style5 
+{ 
+	width:285px;
+}
+#style6
+{
+	width: 230px;
+}
+/*---------------------------[Images]---------------------------*/
+.image
+{
+	float: right;
+	position: relative;
+	padding: 10px;
+}
+
+.centrer_image
+{
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+/*---------------------------[TABLEAU]---------------------------*/
+table 
+{
+	border-collapse: collapse;	
+	margin-left:550px;
+	position: absolute;
+	display: block;
+	margin-top: -300px;
+	
+	
+}
+td, th
+{
+	border: 1px solid black;
+	text-align: center;
+	font-weight: normal;
+}
+/*---------------------------[Liens internes Index] Décoration texte (éolienne, solaire, thorium) situés dans l'index---------------------------*/
+.deco_none
+{
+	text-decoration: none;
+    color: #96CA2D;
+}
+.deco_none:hover
+{
+	text-decoration: underline;
+}
+
+/*---------------------------[Vidéos] Style block vidéo---------------------------*/
+.video
+{
+	display:block;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 4px 4px 4px grey;
+}
+.video_thorium
+{
+	box-shadow: 4px 4px 4px grey;
+}
